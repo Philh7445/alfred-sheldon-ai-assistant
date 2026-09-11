@@ -1,23 +1,72 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
-# Virtual Environments
+# Virtual environments
 venv/
 .venv/
-
-# Logs
-*.log
-bot.log
-
-# Mac system files
-.DS_Store
+env/
+ENV/
 
 # Environment variables / secrets
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+credentials*.json
+secrets*.json
+tokens*.json
 
-# Ollama / temp
+# Local databases / memory stores
+*.db
+*.sqlite
+*.sqlite3
+memory/
+data/local/
+state/
+
+# Logs / runtime files
+*.log
+logs/
+*.pid
+*.sock
+bot.log
+
+# Generated / temporary files
 *.tmp
+*.temp
+.cache/
+tmp/
+build/
+dist/
+*.egg-info/
 
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ollama / model caches
+.ollama/
+models/
+
+# Local project/runtime folders
 clawdbot/
+
+# Backups / local exports
+backups/
+exports/private/
