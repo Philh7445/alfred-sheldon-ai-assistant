@@ -1,4 +1,4 @@
-# Sheldon AI Assistant
+# Alfred → Sheldon AI Assistant
 
 > A local-first, human-in-the-loop AI assistant evolving from the original Alfred prototype.
 
@@ -146,6 +146,7 @@ Potential tasks include DSP block selection, signal routing, automixers, AGC, du
 │   ├── architecture.md
 │   ├── automator-scripts.md
 │   ├── commands.md
+│   ├── current-state.md
 │   ├── restart-guide.md
 │   ├── sheldon-roadmap.md
 │   └── troubleshooting.md
@@ -154,7 +155,7 @@ Potential tasks include DSP block selection, signal routing, automixers, AGC, du
     └── stop.sh
 ```
 
-The older Alfred documentation is intentionally retained because it records the functioning V1 architecture and the project's evolution.
+The older Alfred documentation is intentionally retained because it records the functioning V1 architecture and the project's evolution. The current runtime status and pending host audit are documented in [`docs/current-state.md`](docs/current-state.md).
 
 ## Technologies
 
@@ -197,7 +198,8 @@ The Alfred V1 prototype is complete enough to serve as a proven foundation. Curr
 
 ## Documentation
 
-See [`docs/sheldon-roadmap.md`](docs/sheldon-roadmap.md) for the current product direction, architecture priorities, permission model, and staged AV/DSP specialist plan.
+- [`docs/current-state.md`](docs/current-state.md) — confirmed state, unknowns, and the pending Tron audit
+- [`docs/sheldon-roadmap.md`](docs/sheldon-roadmap.md) — product direction, architecture priorities, permission model, and staged AV/DSP specialist plan
 
 ---
 
