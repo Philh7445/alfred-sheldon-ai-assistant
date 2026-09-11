@@ -1,13 +1,17 @@
 #!/bin/bash
 
-echo "Stopping Alfred (AL)..."
+# Legacy Alfred V1 shutdown script.
+# Preserved for historical/operational continuity until the live Tron runtime is audited.
+# Functional behavior is intentionally unchanged.
 
-# Kill bot process
+echo "Stopping Alfred V1 legacy runtime..."
+
+# Stop original Telegram bot process
 echo "Stopping bot..."
 pkill -f "bot.py"
 
-# Kill Ollama
+# Stop Ollama
 echo "Stopping Ollama..."
 pkill -f "ollama"
 
-echo "AL stopped."
+echo "Alfred V1 runtime stopped."
